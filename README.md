@@ -3,6 +3,9 @@
 
 This gem wraps the Spotify metadata API ( https://developer.spotify.com/technologies/web-api/ )
 
+The examples below are not complete - Please browse the code base for
+more methods.
+
 
 ## Examples
 
@@ -96,4 +99,19 @@ search.albums('Love Me Do 1962')
 search.tracks('Let it Roll')
 ```
 
+## TODO
+- Tests.
+- Spotify returns resources in an odd fashion and doesn't give the same items everytime; this wrapper needs to be a little it smarter on that end.
+- Bugs: I only did minimal testing while putting this together - May have broken things during the last refactor, need to go through and fix any issues that I find.
+- CLI - A CLI would be cool :-) (Use Thor)
+
+## Contributing
+- Fork the project
+- Create a branch for your changes
+- Hack
+- Rebase your changes to the most recent copy of this repository's master branch
+- Submit a Pull Request
+
+## License
+[MIT](LICENSE)
 
