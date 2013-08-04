@@ -1,7 +1,7 @@
 file_path = File.dirname(__FILE__)
 Gem::Specification.new do |s|
   s.name        = 'spotify-search'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = Date.today.to_s
   s.summary     = "Spotify metadata API Wrapper"
   s.description = "Spotify metadata API Wrapper."
