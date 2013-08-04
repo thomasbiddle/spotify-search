@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.authors     = ["TJ Biddle"]
   s.email       = 'biddle.thomas@gmail.com'
   s.files       = Dir.glob(File.join('lib/**', '*.rb'))
-  s.homepage    = 'http://www.TJBiddle.com'
+  s.homepage    = 'https://github.com/thomasbiddle/spotify-search'
 end
