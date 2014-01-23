@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.email       = 'biddle.thomas@gmail.com'
   s.files       = Dir.glob(File.join('lib/**', '*.rb'))
   s.homepage    = 'https://github.com/thomasbiddle/spotify-search'
+  s.add_dependency("rest-client", "~> 1.6.7")
+  s.add_dependency("json", "~> 1.8.1")
 end
